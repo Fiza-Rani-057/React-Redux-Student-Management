@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #f5f0ff;
+    color: #35204f;
+}
+
+.main {
+    width: 90%;
+    max-width: 750px;
+    margin: 55px auto;
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #e5d8f7;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(75, 35, 120, 0.10);
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #542783;
+    margin-bottom: 10px;
+}
+
+.main h3 {
+    text-align: center;
+    color: #8b6ca8;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main label {
+    font-size: 15px;
+    font-weight: 800;
+    color: #4b286d;
+}
+
+.main input {
+    width: 100%;
+    padding: 13px 15px;
+    background: #faf7ff;
+    border: 1px solid #ddc9f3;
+    border-radius: 10px;
+    outline: none;
+    color: #35204f;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.main input:focus {
+    border-color: #8952c7;
+    box-shadow: 0 0 0 3px rgba(137, 82, 199, 0.12);
+}
+
+.main button {
+    padding: 12px 18px;
+    margin-top: 10px;
+    background: #6935a0;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main form button:hover {
+    background: #4d217e;
+    transform: translateY(-2px);
+}
+
+.main h2 {
+    font-size: 23px;
+    font-weight: 900;
+    color: #542783;
+    margin: 35px 0 18px;
+}
+
+.student-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+    background: #faf7ff;
+    border: 1px solid #e5d8f7;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.student-details:hover {
+    border-color: #a77bd4;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(75, 35, 120, 0.08);
+}
+
+.student-details p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #49305f;
+}
+
+.student-details button {
+    margin: 0;
+    padding: 8px 17px;
+    background: #7c50b3;
+    font-size: 13px;
+}
+
+.student-details button:hover {
+    background: #7c50b3;
+}
+
+.main > p {
+    color: #8b6ca8;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .main {
+        width: 94%;
+        margin: 25px auto;
+        padding: 22px;
+    }
+
+    .main h1 {
+        font-size: 27px;
+    }
+
+    .student-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.main h3 {
+    display: block;
+    visibility: visible;
+    color: #6935a0;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.main form button {
+    display: block;
+    width: 100%;
+    visibility: visible;
+    background: #6935a0;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    font-weight: 800;
+}
