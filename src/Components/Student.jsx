@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { AddStudent, DeleteStudent } from "../Redux/Std";
 
-
 function StudentApp() {
     const [name, setName] = useState("");
     const [age, setAge] = useState("");

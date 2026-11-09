@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
 
 * {
@@ -133,7 +132,7 @@ body {
     background: #7c50b3;
 }
 
-.main > p {
+.main>p {
     color: #8b6ca8;
     text-align: center;
     font-size: 15px;
@@ -156,6 +155,7 @@ body {
         align-items: flex-start;
     }
 }
+
 .main h3 {
     display: block;
     visibility: visible;
